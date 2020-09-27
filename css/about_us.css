@@ -1,0 +1,135 @@
+.about-us {
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    margin-bottom: 180px;
+}
+
+.about-us-foto {
+    height: 918px;
+    position: relative;
+}
+
+.about-us-social{
+    width: 115px;
+    height: 115px;
+    background-color: #5c615c;
+    position: absolute;
+    bottom: -5%;
+    right: -25px;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+
+.about-us-social:nth-child(3){
+    bottom: 10%;
+}
+
+.about-us-social:nth-child(2){
+    bottom: 25%;
+}
+
+.about-us-experience{
+    margin-left: 150px;
+}
+
+.about-us-social>a{
+    color: #1e220e;
+}
+
+.about-us-who-we-are{
+    background-color: #ebe1dd;
+    color: #222b21;
+    font-size: 35px;
+    box-shadow: 15px 15px 0px 2px #9da6ae;
+    padding: 45px 45px;
+    margin-bottom: 70px;
+}
+
+.about-us-who-we-are>h3{
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.about-us-who-we-are>span{
+    display: block;
+    text-align: end;
+}
+
+.about-us-experience-item{
+    background-color: #d7e0ca;
+    width: 560px;
+    text-align: center;
+    padding: 25px;
+    font-size: 33px;
+    margin-bottom: 30px;
+}
+
+.about-us-experience-item:nth-child(2){
+    transform: translateX(120px);
+}
+
+.about-us-experience-item:nth-child(3){
+    transform: translateX(240px);
+}
+
+/*Блок с миссией и кнопка каталога*/
+
+.mission{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mission-block{
+    background-color: #ebe1dd;
+    color: #222b21;
+    font-size: 35px;
+    box-shadow: 15px 15px 0px 2px #9da6ae;
+    padding: 54px 75px;
+    margin-bottom: 220px;
+    width: 850px;
+    height: 370px;
+}
+
+.mission-block>h1{
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.mission-block>span{
+    display: block;
+    text-align: end;
+    font-size: 45px;
+}
+
+.catalog-block{
+    margin-bottom: 120px;
+    position: relative;
+    z-index: 0;
+}
+
+.catalog-block .button{
+    width: 520px;
+    font-size: 35px;
+    height: 105px;
+    margin-bottom: 85px;
+}
+
+.catalog-block .button::before{
+    width: 100%;
+    height: 100%;
+    top: -15px;
+    left: -15px;
+}
+
+.catalog-block .button::after{
+    width: 100%;
+    height: 100%;
+    top: 5px;
+    left: 5px;
+}

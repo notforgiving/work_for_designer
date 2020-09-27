@@ -1,0 +1,81 @@
+/*Базовые настройки для всех страниц*/
+
+html{
+    background-color: #fff;
+    font-size: 42px;
+}
+body{
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1920px;
+    margin: 0 auto;
+    font-family: Nyasha Sans;
+    color: #f8eeef;
+    font-size: 42px;
+    background: url(../img/bg_catalog.png);
+}
+
+a{
+    color: #000;
+}
+
+li{
+    list-style: none;
+}
+
+h1,h3,h4,p{
+    margin: 0;
+}
+
+section{
+    font-size: 35px;
+    color: #000;
+}
+
+.button{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #d8c1b7;
+    font-family: Nyasha Sans;
+    font-size: 35px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.button::before{
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    border: 6px solid #d7e0ca;
+}
+
+.button:hover:before{
+    top: -5px;
+    left: -5px;
+    transition: 0.5s;
+}
+
+.button::after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 15px;
+    left: 15px;
+    border: 6px solid #536454;
+}
+
+.button:hover:after{
+    top: -1px;
+    left: -1px;
+    transition: 0.5s;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:focus{
+    outline: none;
+}

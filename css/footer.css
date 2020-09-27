@@ -1,0 +1,92 @@
+/*Стили футера*/
+footer{
+    height: 495px;
+    background-color: #a6b89a;
+    font-size: 35px;
+    color: #000;
+}
+
+.footer_block {
+    padding: 55px 50px;
+    display: flex;
+}
+
+.footer-contacts{
+    display: inline-block;
+    width: 90%;
+}
+
+.footer-contacts-adresses{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-contacts-adress-item>strong {
+    text-align: center;
+}
+
+.footer-contacts-adress-item>img{
+    width: 300px;
+}
+
+.footer-contacts-phone{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.footer-social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-social-item{
+    background-color: #5d6157;
+    color: #a6b89a;
+    font-size: 55px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-bottom: 37px;
+}
+
+.footer-social-item a{
+    color: #a6b89a;
+}
+
+.fa .fa-phone{
+    border: 1px solid #000;
+    border-radius: 50%;
+    padding: 20px;
+    margin-right: 10px;
+}
+
+.footer-contacts-phone a{
+    color:#000;
+    text-decoration: none;
+}
+
+.footer-contacts-adress-item p:last-child{
+    font-size: 29px;
+}
+
+.footer-contacts-adress-item>p{
+    margin-bottom: 60px;
+}
+
+.footer-contacts-adress-item:nth-child(3)>p{
+    text-align: center;
+}
+
+.footer-contacts-phone span{
+    font-size: 17px;
+}
+
+.footer-contacts-phone span:nth-child(2){
+    font-size: 35px;
+}

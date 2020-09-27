@@ -1,0 +1,147 @@
+/*Секция "Что такое стабилизированный мох"*/
+
+.information{
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.information-block{
+    width: 1530px;
+    height: 360px;
+    display: inline-block;
+    background-color: #ebe1dd;
+    padding: 0 32px 59px 0;
+    color:#222b21;
+    box-shadow: 15px 15px 0px 2px #9da6ae;
+}
+.information-block>h1{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 57px;
+}
+
+.information-block span{
+    display: block;
+    text-align: end;
+    margin-top: 50px;
+    font-size: 35px;
+}
+
+/*Секция с каталогом*/
+
+.catalog>h1{
+    margin-bottom: 130px;
+    text-align: center;
+    font-size: 70px;
+    color: #384340;
+}
+
+.catalog-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.catalog-item{
+    width: 685px;
+    height: 110px;
+    background-color: #d7e0ca;
+    margin-bottom: 93px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 38px;
+    position: relative;
+}
+
+.catalog-item:nth-child(n+5){
+    margin-bottom: 0px;
+}
+
+.catalog-item-cicle{
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    border: 7px solid #536454;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 65px;
+}
+
+.catalog-item-cicle .small{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+}
+
+.catalog-item:nth-child(-n+2) .small{
+    position: absolute;
+    top: -15px;
+    left: -30px;
+}
+
+.catalog-item:nth-child(n+3) .small{
+    position: absolute;
+    top: 10%;
+    left: -30px;
+    transform: scaleY(50%);
+}
+
+.catalog-item:nth-child(n+5) .small{
+    position: absolute;
+    top: 40%;
+    left: -30px;
+}
+
+/*Блок Преимущества*/
+.advantages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advantages-block{
+    width: 920px;
+    background-color: #ebe1dd;
+    padding: 65px;
+    font-size: 35px;
+    margin-top: 190px;
+    color: #384340;
+    margin-bottom: 220px;
+    box-shadow: -15px -15px 0px 2px #9da6ae;
+}
+
+.advantages-block>ul li{
+    margin-bottom: 30px;
+}
+
+/*Кнопка каталога*/
+.catalog-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    position: relative;
+}
+
+.catalog-button>.button{
+    margin: 205px 0 105px 0;
+    padding: 20px 160px;
+}
+
+.catalog-button>.button::before{
+    width: 100%;
+    height: 100%;
+    top: -15px;
+    left: -15px;
+}
+
+.catalog-button>.button::after{
+    width: 100%;
+    height: 100%;
+    top: 5px;
+    left: 5px;
+}

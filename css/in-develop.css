@@ -1,0 +1,50 @@
+/*Секция для страницы в разработке*/
+
+main{
+    height: 1080px;
+    background: url("../img/bg.png") no-repeat;
+    background-size: cover; 
+    color: #384340;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    z-index: 0;
+}
+
+.main_block{
+    display: inline-block;
+    width: 850px;
+    height: 300px;
+    background-color: #ebe1dd;
+    margin: 220px 95px 0 0;
+    text-align: right;
+    font-size: 34px;
+    padding: 65px 50px 40px 50px;
+    line-height: 40px;
+    letter-spacing: 5px;
+    box-shadow: 15px 15px 0px 2px #9da6ae;
+}
+
+.main_block>h4{
+    text-align: center;
+    font-size: 55px;
+    margin-bottom: 95px;
+}
+
+.main_button>button{
+    width: 530px;
+    font-size: 35px;
+    height: 105px;
+    margin: 220px 265px 0 0;
+}
+
+.main_button>button::before{
+    width: 515px;
+    height: 90px;
+}
+
+.main_button>button::after{
+    width: 515px;
+    height: 90px;
+}
