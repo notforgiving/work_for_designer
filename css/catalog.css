@@ -49,6 +49,7 @@
     height: 110px;
     background-color: #d7e0ca;
     margin-bottom: 93px;
+    color: #384340;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -87,7 +88,6 @@
     position: absolute;
     top: 10%;
     left: -30px;
-    transform: scaleY(50%);
 }
 
 .catalog-item:nth-child(n+5) .small{
