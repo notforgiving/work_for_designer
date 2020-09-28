@@ -15,6 +15,37 @@ body{
     background: url(../img/bg_catalog.png);
 }
 
+/*Прелодер*/
+.loaderArea {
+    background-color: #ffffff;
+    min-height: 100vh;
+}
+
+.loaderArea>img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 10vw;
+    margin: auto;
+    right: 0;
+    bottom: 0;
+    z-index: 100000;
+    animation-name: rotation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotation {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+}
+
+
 a{
     color: #000;
 }
