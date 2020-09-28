@@ -96,6 +96,19 @@
     left: -30px;
 }
 
+/*Анимация кружков при наведении*/
+.catalog-item:hover{
+    cursor: pointer;
+}
+
+.catalog-item:hover .small{
+    cursor: pointer;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    transition: 0.5s;
+}
+
 /*Блок Преимущества*/
 .advantages{
     display: flex;
@@ -127,19 +140,19 @@
     position: relative;
 }
 
-.catalog-button>.button{
+.catalog-button>button{
     margin: 205px 0 105px 0;
     padding: 20px 160px;
 }
 
-.catalog-button>.button::before{
+.catalog-button>button::before{
     width: 100%;
     height: 100%;
     top: -15px;
     left: -15px;
 }
 
-.catalog-button>.button::after{
+.catalog-button>button::after{
     width: 100%;
     height: 100%;
     top: 5px;

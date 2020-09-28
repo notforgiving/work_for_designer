@@ -51,6 +51,7 @@ header{
 
 .nav_block>ul li a:hover {
     font-size: 47px;
+    color: #d7e0ca;
     transition: 0.2s;
 }
 

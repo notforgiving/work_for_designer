@@ -55,6 +55,11 @@ footer{
     margin-bottom: 37px;
 }
 
+.footer-social-item:hover{
+    background-color: #306b34;
+    transition: 0.2s;
+}
+
 .footer-social-item a{
     color: #a6b89a;
 }

@@ -32,6 +32,10 @@ section{
     color: #000;
 }
 
+*:hover{
+    transition: 0.5s;
+}
+
 .button{
     position: relative;
     display: flex;
@@ -51,12 +55,6 @@ section{
     border: 6px solid #d7e0ca;
 }
 
-.button:hover:before{
-    top: -5px;
-    left: -5px;
-    transition: 0.5s;
-}
-
 .button::after{
     content: '';
     position: absolute;
@@ -66,9 +64,16 @@ section{
     border: 6px solid #536454;
 }
 
-.button:hover:after{
+/*Анимация кнопок*/
+.button:hover::after{
     top: -1px;
     left: -1px;
+    transition: 0.5s;
+}
+
+.button:hover::before{
+    top: -5px;
+    left: -5px;
     transition: 0.5s;
 }
 

@@ -76,6 +76,19 @@
     left: -30px;
 }
 
+/*Анимация кружков при наведении*/
+.paintings-type-item:hover{
+    cursor: pointer;
+}
+
+.paintings-type-item:hover .small{
+    cursor: pointer;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    transition: 0.5s;
+}
+
 /*Блок с кнопкой и информацией*/
 
 .information {
@@ -140,6 +153,8 @@
     margin-bottom: 120px;
     position: relative;
     z-index: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .catalog-block .button {
@@ -150,14 +165,14 @@
     margin-top: 320px;
 }
 
-.catalog-block .button::before {
+.catalog-block button::before {
     width: 100%;
     height: 100%;
     top: -15px;
     left: -15px;
 }
 
-.catalog-block .button::after {
+.catalog-block button::after {
     width: 100%;
     height: 100%;
     top: 5px;
