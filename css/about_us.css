@@ -95,35 +95,135 @@
     transform: translateX(200px);
 }
 
-/*Блок с миссией и кнопка каталога*/
-/*
-.mission{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+.mobil-block{
+    display: none;
 }
 
-.mission-block{
-    background-color: #ebe1dd;
-    color: #222b21;
-    font-size: 35px;
-    box-shadow: 15px 15px 0px 2px #9da6ae;
-    padding: 54px 75px;
-    margin-bottom: 200px;
-    width: 850px;
-    height: 370px;
-    box-sizing: border-box;
+@media (max-width: 1366px)
+{
+    .about-us{
+        padding: 0;
+        margin: 50px 0 0 0;
+    }
+
+    .about-us-foto{
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+    }
+
+    .about-us-foto>img{
+        width: 268px;
+    }
+
+    .about-us-experience{
+        margin: 0 0 0 40px;
+    }
+
+    .about-us-who-we-are{
+        width: 347px;
+        font-size: 0.5rem;
+        height: 200px;
+        padding: 25px 25px;
+        margin-bottom: 30px;
+    }
+
+    .about-us-who-we-are>h3{
+        margin: 0;
+    }
+
+    .about-us-who-we-are>span{
+        font-size: 0.4rem;
+        margin-top: 25px;
+    }
+
+    .about-us-social{
+        width: 45px;
+        height: 45px;
+        font-size: 20px;
+        border-radius: 15px;
+    }
+
+    .about-us-experience-items {
+        padding: 0 0 0 20px;
+    }
+
+    .about-us-experience-item{
+        width: 200px;
+        font-size: 0.4rem;
+        margin: 0;
+        padding: 9px;
+        margin-bottom: 14px;
+    }
+
+    .about-us-experience-item:nth-child(2) {
+        transform: translateX(60px);
+    }
+
+    .about-us-experience-item:nth-child(3) {
+        transform: translateX(120px);
+    }
+
+    .information{
+        margin-top: 50px;
+    }
+
+    .information-block{
+        width: 41%;
+    }
+
+    .catalog-button .button{
+        margin: 20px 0 53px 0;
+    }
 }
 
-.mission-block>h1{
-    text-align: center;
-    margin-bottom: 55px;
-}
+@media (max-width: 768px)
+{
+    .information{
+        display: none;
+    }
 
-.mission-block>span{
-    display: block;
-    text-align: end;
-    font-size: 40px;
-    font-family: 'Fira Sans', sans-serif;
-}*/
+    .about-us-experience .about-us-who-we-are{
+        display: none;
+    }
+
+    .mobil-block{
+        display: block;
+    }
+
+    .about-us{
+        margin: 0;
+    }
+    
+    .about-us-foto{
+        flex-direction: row;
+        transform: translateX(110px);
+    }
+
+    .about-us-foto>img{
+        width: 220px;
+    }
+
+    .about-us-social{
+        position: static;
+    }
+    
+    .about-us-experience-items{
+        transform: translateX(-60%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .about-us-experience-item:nth-child(2){
+        transform: translateX(-0);
+        width: 85%;
+    }
+
+    .about-us-experience-item:nth-child(3){
+        transform: translateX(-0);
+        width: 66%;
+    }
+}
