@@ -1,4 +1,8 @@
 /*Базовые настройки для всех страниц*/
+@font-face {
+	font-family: 'Nyasha Sans'; 
+	src: url(../fonts/NyashaSans.ttf); 
+}
 
 html{
     background-color: #fff;
