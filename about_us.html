@@ -12,26 +12,49 @@
     <title>О нас</title>
 </head>
 <body>
+    
     <div class="loaderArea">
         <img src="img/preloder.png" alt="Кружок загрузки">
     </div>
 
     <header>
+        <div class="burger">
+            <a class="menu-btn">
+                <span></span>
+              </a>
+        </div>
         <div class="logo">
-            <button class="logo_btn" onclick="location.href = '/index.html'"></button>
+            <button class="logo_btn" onclick="location.href = 'index.html'"></button>
         </div>
         <div class="nav_block">
             <ul>
-                <li><a href="/about_us.html">О нас</a></li>
-                <li><a href="/piaintings.html">Каталог</a></li>
+                <li><a href="about_us.html">О нас</a></li>
+                <li><a href="piaintings.html">Каталог</a></li>
                 <li><a href="#contacts">Контакты</a></li>
-                <li><a href="/in-develop.html">Доставка</a></li>
+                <li><a href="in-develop.html">Доставка</a></li>
                 <li>
-                    <button class="bag" onclick="location.href = '/in-develop.html'"></button>
+                    <button class="bag" onclick="location.href = 'in-develop.html'"></button>
                 </li>
             </ul>
         </div>
     </header>
+    
+    <section class="mobil_menu">
+        <ul>
+            <li>
+                <a href="about_us.html">О нас</a>
+            </li>
+            <li>
+                <a href="piaintings.html">Каталог</a>
+            </li>
+            <li>
+                <a href="#contacts">Контакты</a>
+            </li>
+            <li>
+                <a href="in-develop.html">Доставка</a>
+            </li>
+        </ul>
+    </section>
 
     <section class="about-us">
         <div class="about-us-foto">
@@ -58,7 +81,7 @@
                 <span>
                     Меня зовут Алена Крылова.<br>
                     Я создательница студии фитодизайна<br>
-                    Creative Nature.<br>
+                    <strong>Creative Nature.</strong><br>
                     Люблю природу, но живу в мегаполисе.<br>
                     С помощью фитодизайна, я нашла<br>
                     свой способ человека в городе<br>
@@ -91,10 +114,9 @@
                 Наша миссия
             </h1>
             <span>
-                В условиях<br>
-                "каменных джунглей"<br>
-                мы возвращаем частичку<br>
-                природы в ваш дом.<br>
+                В условиях "каменных джунглей"<br>
+                мы возвращаем частичку природы<br>
+                в ваш дом.
             </span>
         </div>
         <div class="catalog-block">
@@ -130,24 +152,26 @@
                     </div>
                 </div>
                 <div class="footer-contacts-phone">
-                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <div class="border">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                    </div>
                     <span><a href="tel:+78006002710">+7 (800) 600-27-10</a></span><br>
                     <span>© 2010-2020 CreativeNature.ru - природа в вашем доме на десятилетия.</span>
                 </div>
             </div>
             <div class="footer-social">
                 <div class="footer-social-item">
-                    <a href="#">
+                    <a href="https://vk.com/" target="_blank">
                         <i class="fa fa-paper-plane" aria-hidden="true"></i>
                     </a>
                 </div>
                 <div class="footer-social-item">
-                    <a href="#">
+                    <a href="https://www.instagram.com/" target="_blank">
                         <i class="fa fa-instagram" aria-hidden="true"></i>
                     </a>
                 </div>
                 <div class="footer-social-item">
-                    <a href="#">
+                    <a href="https://telegram.org/" target="_blank">
                         <i class="fa fa-vk" aria-hidden="true"></i>
                     </a>
                 </div>

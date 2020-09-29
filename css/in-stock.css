@@ -25,7 +25,7 @@
 }
 
 .product-item>img{
-    margin: 190px 90px 0 80px;
+    margin: 105px 90px 0 80px;
 }
 
 .product-item:nth-child(1){
@@ -54,6 +54,7 @@
     font-size: 27px;
     color: #222b21;
     margin-bottom: 65px;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 
@@ -84,7 +85,10 @@
     display: flex;
     text-align: end;
     height: 275px;
+    font-family: 'Fira Sans', sans-serif;
     width: 480px;
+    font-size: 45px;
+    box-sizing: border-box;
     color: #384340;
     justify-content: center;
     align-items: center;

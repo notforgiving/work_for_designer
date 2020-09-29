@@ -1,10 +1,9 @@
 /*Секция "Что такое стабилизированный мох"*/
 
 .information{
-    height: 620px;
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 110px;
 }
 
 .information-block{
@@ -26,10 +25,17 @@
     display: block;
     text-align: end;
     margin-top: 50px;
-    font-size: 35px;
+    font-size: 45px;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 /*Секция с каталогом*/
+
+.catalog{
+    margin-top: 210px;
+    width: 90%;
+    margin: 210px auto 0 auto;
+}
 
 .catalog>h1{
     margin-bottom: 130px;
@@ -106,7 +112,7 @@
     margin: auto;
     position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 /*Блок Преимущества*/
@@ -119,9 +125,12 @@
 .advantages-block{
     width: 920px;
     background-color: #ebe1dd;
-    padding: 65px;
+    padding: 0 65px;
     font-size: 35px;
+    font-family: 'Fira Sans', sans-serif;
     margin-top: 190px;
+    height: 370px;
+    box-sizing: border-box;
     color: #384340;
     margin-bottom: 220px;
     box-shadow: -15px -15px 0px 2px #9da6ae;

@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
     <!--Подключаем базовые скрипты и стили для слайдера-->
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery.js"></script>
     <link rel="stylesheet" href="plagins/slick/slick.css">
     <link rel="stylesheet" href="plagins/slick/slick-theme.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/basic.css">
     <link rel="stylesheet" href="css/header.css">
@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/catalog.css">
     <link rel="stylesheet" href="css/in-stock.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/media_mobil.css">
     <title>Главная страница</title>
 </head>
 <body>
@@ -27,21 +27,43 @@
 </div>
 
 <header>
+    <div class="burger">
+        <a class="menu-btn">
+            <span></span>
+          </a>
+    </div>
     <div class="logo">
-        <button class="logo_btn" onclick="location.href = '/index.html'"></button>
+        <button class="logo_btn" onclick="location.href = 'index.html'"></button>
     </div>
     <div class="nav_block">
         <ul>
-            <li><a href="/about_us.html">О нас</a></li>
-            <li><a href="/piaintings.html">Каталог</a></li>
+            <li><a href="about_us.html">О нас</a></li>
+            <li><a href="piaintings.html">Каталог</a></li>
             <li><a href="#contacts">Контакты</a></li>
-            <li><a href="/in-develop.html">Доставка</a></li>
+            <li><a href="in-develop.html">Доставка</a></li>
             <li>
-                <button class="bag" onclick="location.href = '/in-develop.html'"></button>
+                <button class="bag" onclick="location.href = 'in-develop.html'"></button>
             </li>
         </ul>
     </div>
 </header>
+
+<section class="mobil_menu">
+    <ul>
+        <li>
+            <a href="about_us.html">О нас</a>
+        </li>
+        <li>
+            <a href="piaintings.html">Каталог</a>
+        </li>
+        <li>
+            <a href="#contacts">Контакты</a>
+        </li>
+        <li>
+            <a href="in-develop.html">Доставка</a>
+        </li>
+    </ul>
+</section>
 
 <section class="slider_wrapper">
     <div class="catalog_slider">
@@ -57,13 +79,13 @@
                 </div>
                 <div class="slider_block_description_cause">
                     <ul>
-                        <li>Рамки Тиффани</li>
-                        <li>Требует ухода</li>
-                        <li>Обычно</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i>Рамки Тиффани</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i>Требует ухода</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i>Обычно</li>
                     </ul>
                 </div>
                 <div class="slider_block_description_button">
-                    <button class="button">
+                    <button class="button" onclick="location.href = 'in-develop.html'">
                         Подробнее
                     </button>
                 </div>
@@ -81,12 +103,12 @@
                 </div>
                 <div class="slider_block_description_cause">
                     <ul>
-                        <li>Рамки Тиффани</li>
-                        <li>Не требует ухода</li>
-                        <li>Необычно</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i>Рамки Тиффани</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i>Не требует ухода</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i>Необычно</li>
                     </ul>
                 </div>
-                <div class="slider_block_description_button">
+                <div class="slider_block_description_button" onclick="location.href = 'in-develop.html'">
                     <button class="button">
                         Подробнее
                     </button>
@@ -105,13 +127,13 @@
                 </div>
                 <div class="slider_block_description_cause">
                     <ul>
-                        <li>Рамки Тиффани</li>
-                        <li>Требует ухода</li>
-                        <li>Обычно</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i>Рамки Тиффани</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i>Требует ухода</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i>Обычно</li>
                     </ul>
                 </div>
                 <div class="slider_block_description_button">
-                    <button class="button">
+                    <button class="button" onclick="location.href = 'in-develop.html'">
                         Подробнее
                     </button>
                 </div>
@@ -181,10 +203,10 @@
 <section class="advantages">
     <div class="advantages-block">
         <ul>
-            <li>Не требуют ухода</li>
-            <li>Насекомым тут не нравитсяж)</li>
-            <li>Не притягивают пыль</li>
-            <li>Будет радовать до 10 лет!</li>
+            <li><i class="fa fa-check" aria-hidden="true"></i>Не требуют ухода</li>
+            <li><i class="fa fa-check" aria-hidden="true"></i>Насекомым тут не нравитсяж)</li>
+            <li><i class="fa fa-check" aria-hidden="true"></i>Не притягивают пыль</li>
+            <li><i class="fa fa-check" aria-hidden="true"></i>Будет радовать до 10 лет!</li>
         </ul>
     </div>
 </section>
@@ -203,7 +225,7 @@
                 <p><strong>Размер:</strong> 25 х 25 см</p>
                 <p><strong>Цвет рамки:</strong> белый/чёрный</p>
             </div>
-            <button class="button">4500 руб.</button>
+            <button class="button" onclick="location.href = 'in-develop.html'">4500 руб.</button>
         </div>
         <div class="product-item">
             <img src="img/paintmoss2.png" alt="Рельеф">
@@ -216,7 +238,7 @@
                 <p><strong>Размер:</strong> 25 х 25 см</p>
                 <p><strong>Цвет рамки:</strong> белый/чёрный</p>
             </div>
-            <button class="button">3000 руб.</button>
+            <button class="button" onclick="location.href = 'in-develop.html'">3000 руб.</button>
         </div>
         <div class="product-item">
             <img src="img/paintmoss3.png" alt="Море">
@@ -230,7 +252,7 @@
                 <p><strong>Размер:</strong> 25 х 25 см</p>
                 <p><strong>Цвет рамки:</strong> белый/чёрный</p>
             </div>
-            <button class="button">4500 руб.</button>
+            <button class="button" onclick="location.href = 'in-develop.html'">4500 руб.</button>
         </div>
         <div class="calfication">
             <span>
@@ -243,7 +265,7 @@
 </section>
 
 <section class="catalog-button">
-    <button class="button">Каталог</button>
+    <button class="button" onclick="location.href = 'piaintings.html'"">Каталог</button>
 </section>
 
 <footer id='contacts'>
@@ -272,24 +294,26 @@
                 </div>
             </div>
             <div class="footer-contacts-phone">
-                <i class="fa fa-phone" aria-hidden="true"></i>
+                <div class="border">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                </div>
                 <span><a href="tel:+78006002710">+7 (800) 600-27-10</a></span><br>
                 <span>© 2010-2020 CreativeNature.ru - природа в вашем доме на десятилетия.</span>
             </div>
         </div>
         <div class="footer-social">
             <div class="footer-social-item">
-                <a href="#">
+                <a href="https://vk.com/" target="_blank">
                     <i class="fa fa-paper-plane" aria-hidden="true"></i>
                 </a>
             </div>
             <div class="footer-social-item">
-                <a href="#">
+                <a href="https://www.instagram.com/" target="_blank">
                     <i class="fa fa-instagram" aria-hidden="true"></i>
                 </a>
             </div>
             <div class="footer-social-item">
-                <a href="#">
+                <a href="https://telegram.org/" target="_blank">
                     <i class="fa fa-vk" aria-hidden="true"></i>
                 </a>
             </div>

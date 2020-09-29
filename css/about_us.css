@@ -42,32 +42,40 @@
 
 .about-us-social:hover{
     background-color: #306b34;
-    transition: 0.3s;
+    transition: 0.2s;
     cursor: pointer;
 }
 
 .about-us-social:hover>a{
     color: #fff;
-    transition: 0.2s;
+    transition: 0.1s;
 }
 
 .about-us-who-we-are{
     background-color: #ebe1dd;
     color: #222b21;
+    width: 800px;
     font-size: 35px;
     box-shadow: 15px 15px 0px 2px #9da6ae;
     padding: 45px 45px;
     margin-bottom: 70px;
+    height: 510px;
 }
 
 .about-us-who-we-are>h3{
     text-align: center;
-    margin-bottom: 65px;
+    margin-bottom: 50px;
 }
 
 .about-us-who-we-are>span{
     display: block;
     text-align: end;
+    font-size: 35px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.about-us-who-we-are>span>strong{
+    text-transform: uppercase;
 }
 
 .about-us-experience-item{
@@ -80,11 +88,11 @@
 }
 
 .about-us-experience-item:nth-child(2){
-    transform: translateX(120px);
+    transform: translateX(100px);
 }
 
 .about-us-experience-item:nth-child(3){
-    transform: translateX(240px);
+    transform: translateX(200px);
 }
 
 /*Блок с миссией и кнопка каталога*/
@@ -102,24 +110,26 @@
     font-size: 35px;
     box-shadow: 15px 15px 0px 2px #9da6ae;
     padding: 54px 75px;
-    margin-bottom: 220px;
+    margin-bottom: 200px;
     width: 850px;
     height: 370px;
+    box-sizing: border-box;
 }
 
 .mission-block>h1{
     text-align: center;
-    margin-bottom: 75px;
+    margin-bottom: 55px;
 }
 
 .mission-block>span{
     display: block;
     text-align: end;
-    font-size: 45px;
+    font-size: 40px;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .catalog-block{
-    margin-bottom: 120px;
+    margin-bottom: 110px;
     position: relative;
     z-index: 0;
 }
@@ -128,7 +138,6 @@
     width: 520px;
     font-size: 35px;
     height: 105px;
-    margin-bottom: 85px;
 }
 
 .catalog-block button::before{

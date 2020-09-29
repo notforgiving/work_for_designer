@@ -64,7 +64,7 @@ section{
 }
 
 *:hover{
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .button{
@@ -99,13 +99,13 @@ section{
 .button:hover::after{
     top: -1px;
     left: -1px;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .button:hover::before{
     top: -5px;
     left: -5px;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 button:hover{

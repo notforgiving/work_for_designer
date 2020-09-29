@@ -3,7 +3,8 @@
 .slider_wrapper{
     height: 920px;
     position: relative;
-    padding: 87px 50px 0;
+    margin-top: 85px;
+    padding: 0 50px 0;
 }
 
 .slider_block{
@@ -38,6 +39,12 @@
 .slider_block_description_cause>ul li{
     list-style: none;
     font-size: 40px;
+    margin-bottom: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.fa-check{
+    margin-right: 10px;
 }
 
 .slider_block_description_button{
@@ -77,7 +84,7 @@
 
 .slick-dots li button:hover:before{
     color: #306b34;
-    transition: 0.2s;
+    transition: 0.1s;
 }
 
 .slick-dots li button:before {
@@ -102,7 +109,7 @@
 
 .prev:hover{
     background: url('../img/arrow_left._hover.png') no-repeat center center;
-    transition: 0.2s;
+    transition: 0.1s;
 }
 
 .next{
@@ -119,5 +126,5 @@
 
 .next:hover{
     background: url('../img/arrow_right_hover.png') no-repeat center center;
-    transition: 0.2s;
+    transition: 0.1s;
 }

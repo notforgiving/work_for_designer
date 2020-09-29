@@ -32,6 +32,11 @@ main{
     margin-bottom: 95px;
 }
 
+.main_block>span{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 45px;
+}
+
 .main_button>button{
     width: 530px;
     font-size: 35px;
