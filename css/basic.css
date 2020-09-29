@@ -8,6 +8,7 @@ html{
     background-color: #fff;
     font-size: 42px;
 }
+
 body{
     padding: 0;
     box-sizing: border-box;
@@ -17,6 +18,24 @@ body{
     color: #f8eeef;
     font-size: 42px;
     background: url(../img/bg_catalog.png);
+}
+
+@media (max-width: 1366px)
+{
+    body{
+        max-width: 768px;
+        font-size: 21px;
+        background-size: 100%;
+    }
+}
+
+@media (max-width: 768px)
+{
+    body{
+        max-width: 450px;
+        font-size: 21px;
+        background-size: 100%;
+    }
 }
 
 /*Прелодер*/
@@ -49,7 +68,6 @@ body{
     }
 }
 
-
 a{
     color: #000;
 }
@@ -60,6 +78,28 @@ li{
 
 h1,h3,h4,p{
     margin: 0;
+}
+
+@media (max-width: 1366px)
+{
+    h1{
+        font-size: 0.5rem;
+    }
+    
+    h1, h3, h4, p {
+        margin: 0;
+    }
+}
+
+@media (max-width: 768px)
+{
+    h1{
+        font-size: 0.7rem;
+    }
+
+    h1, h3, h4, p {
+        margin: 0;
+    }
 }
 
 section{
@@ -99,6 +139,199 @@ section{
     border: 6px solid #536454;
 }
 
+@media (max-width: 1366px)
+{
+    .button::before{
+        border: 4px solid #d7e0ca;
+    }
+
+    .button::after {
+        border: 4px solid #536454;
+    }
+}
+
+@media (max-width: 768px)
+{
+    .button {
+        font-size: 0.3rem;
+    }
+    
+    .button::before {
+        border: 3px solid #d7e0ca;
+    }
+    
+    .button::after {
+        border: 3px solid #536454;
+    }
+}
+
+
+/*Секция с информацией посреди экрана*/
+
+.information{
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+}
+
+.information-block{
+    width: 1530px;
+    height: 360px;
+    display: inline-block;
+    background-color: #ebe1dd;
+    padding: 0 32px 59px 0;
+    color:#222b21;
+    box-shadow: 15px 15px 0px 2px #9da6ae;
+}
+.information-block>h1{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 57px;
+}
+
+.information-block span{
+    display: block;
+    text-align: end;
+    margin-top: 50px;
+    font-size: 45px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+@media (max-width: 1366px)
+{
+    .information {
+        margin-top: 110px;
+        height: 200px;
+    }
+
+    .information-block {
+        width: 80%;
+        height: 70%;
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+        padding: 20px;
+        box-shadow: 8px 6px 0px 1px #9da6ae;
+    }
+
+    .information-block>h1 {
+        font-size: 65%;
+        margin-top: 20px;
+        margin: 0;
+    }
+
+    .information-block span {
+        margin-top: 20px;
+        font-size: 55%;
+    }
+}
+
+@media (max-width: 768px)
+{
+    .information {
+        margin-top: 0;
+        height: 200px;
+    }
+    
+    .information-block {
+        width: 80%;
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px;
+        box-shadow: 8px 6px 0px 1px #9da6ae;
+    }
+    
+    .information-block>h1 {
+        font-size: 46%;
+        margin: 0;
+    }
+    
+    .information-block span {
+        margin-top: 10px;
+        font-size: 33%;
+    }
+}
+
+
+
+/*Кнопка каталога*/
+.catalog-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    position: relative;
+}
+
+.catalog-button .button{
+    margin: 205px 0 105px 0;
+    padding: 20px 160px;
+}
+
+.catalog-button .button::before{
+    width: 100%;
+    height: 100%;
+    top: -15px;
+    left: -15px;
+}
+
+.catalog-button .button::after{
+    width: 100%;
+    height: 100%;
+    top: 5px;
+    left: 5px;
+}
+
+@media (max-width: 1366px)
+{
+    .catalog-button .button {
+        padding: 10px 50px;
+        font-size: 0.3rem;
+        margin: 20px 0;
+    }
+
+    .catalog-butto .button {
+        margin: 75px 0 45px 0;
+        padding: 5px 30px;
+        width: 205px;
+        height: 40px;
+        font-size: 0.4rem;
+    }
+
+    .catalog-button .button::before {
+        top: -10px;
+        left: -10px;
+    }
+
+    .catalog-button .button::after {
+        top: 3px;
+        left: 3px;
+    }
+}
+
+@media (max-width: 768px)
+{
+
+    
+    .catalog-button .button {
+        margin: 40px 40px;
+        padding: 5px 30px;
+    }
+
+    
+    .catalog-button .button::before {
+        top: -10px;
+        left: -10px;
+    }
+    
+    .catalog-button .button::after {
+        top: 3px;
+        left: 3px;
+    }
+}
+
 /*Анимация кнопок*/
 .button:hover::after{
     top: -1px;
@@ -112,10 +345,10 @@ section{
     transition: 0.3s;
 }
 
-button:hover{
+.button:hover{
     cursor: pointer;
 }
 
-button:focus{
+.button:focus{
     outline: none;
 }

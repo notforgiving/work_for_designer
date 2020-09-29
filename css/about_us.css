@@ -96,7 +96,7 @@
 }
 
 /*Блок с миссией и кнопка каталога*/
-
+/*
 .mission{
     display: flex;
     justify-content: center;
@@ -126,30 +126,4 @@
     text-align: end;
     font-size: 40px;
     font-family: 'Fira Sans', sans-serif;
-}
-
-.catalog-block{
-    margin-bottom: 110px;
-    position: relative;
-    z-index: 0;
-}
-
-.catalog-block .button{
-    width: 520px;
-    font-size: 35px;
-    height: 105px;
-}
-
-.catalog-block button::before{
-    width: 100%;
-    height: 100%;
-    top: -15px;
-    left: -15px;
-}
-
-.catalog-block button::after{
-    width: 100%;
-    height: 100%;
-    top: 5px;
-    left: 5px;
-}
+}*/
