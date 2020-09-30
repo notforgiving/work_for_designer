@@ -111,14 +111,6 @@
     cursor: pointer;
 }
 
-.catalog-item:hover .small{
-    cursor: pointer;
-    margin: auto;
-    position: absolute;
-    top: 0; left: 0; bottom: 0; right: 0;
-    transition: 0.s;
-}
-
 @media (max-width: 1366px)
 {
     .catalog-item-cicle {
@@ -217,6 +209,15 @@
     .catalog-item:nth-child(n+5) {
         margin-bottom: 18px;
     }    
+}
+
+
+.catalog-item:hover .small{
+    cursor: pointer;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    transition: 0.s;
 }
 
 /*Блок Преимущества*/

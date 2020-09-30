@@ -4,6 +4,20 @@
 	src: url(../fonts/NyashaSans.ttf); 
 }
 
+@media (max-width: 1366px)
+{
+    *{
+        transition: 0.1s;
+    }
+}
+
+@media (max-width: 768px)
+{
+    *{
+        transition: 0.1s;
+    }
+}
+
 html{
     background-color: #fff;
     font-size: 42px;

@@ -134,7 +134,7 @@ header{
 {
     .logo {
         margin: 0;
-        width: 25%;
+        width: 33%;
     }
 }
 
@@ -160,19 +160,6 @@ header{
     background: url(../img/logo.gif) no-repeat;
 }
 
-@media (max-width: 768px)
-{
-    .logo_btn {
-        background: url(../img/logo.png) center center no-repeat;
-        height: 100%;
-        background-size: 100%;
-    }
-
-    .logo_btn:hover {
-        background: url(../img/logo.gif) center center no-repeat;
-        background-size: 100%;
-    }
-}
 
 @media (max-width: 1366px)
 {
@@ -180,14 +167,29 @@ header{
         transform: translateY(-5px);
         background: url(../img/logo.png) center center no-repeat;
         height: 100%;
-        background-size: 50%;
+        background-size: 65%;
     }
     
     .logo_btn:hover {
         background: url(../img/logo.gif) center center no-repeat;
-        background-size: 50%;
+        background-size: 65%;
     }
 }
+
+@media (max-width: 768px)
+{
+    .logo_btn {
+        background: url(../img/logo.png) center center no-repeat;
+        height: 100%;
+        background-size: 80%;
+    }
+
+    .logo_btn:hover {
+        background: url(../img/logo.gif) center center no-repeat;
+        background-size: 80%;
+    }
+}
+
 
 .nav_block{
     display: flex;
@@ -196,7 +198,7 @@ header{
 @media (max-width: 1366px)
 {
     .nav_block {
-        font-size: 0.3rem;
+        font-size: 0.35rem;
     }
 }
 
