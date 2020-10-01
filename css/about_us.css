@@ -24,12 +24,21 @@
     border-radius: 40px;
 }
 
+.about-us-social{
+    background: url(../img/telegram.svg);
+    background-color: #96ba9a;
+ }
+
 .about-us-social:nth-child(3){
     bottom: 10%;
+    background: url(../img/instagram.svg);
+    background-color: #96ba9a;
 }
 
 .about-us-social:nth-child(2){
     bottom: 25%;
+    background: url(../img/vk.svg);
+    background-color: #96ba9a;
 }
 
 .about-us-experience{
@@ -47,9 +56,9 @@
 }
 
 .about-us-social:hover{
-    background-color: #306b34;
     transition: 0.2s;
     cursor: pointer;
+    background-color: #fff;
 }
 
 .about-us-social:hover>a{

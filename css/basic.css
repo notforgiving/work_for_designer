@@ -52,6 +52,14 @@ body{
     }
 }
 
+button{
+    cursor: pointer;
+}
+
+button::focus{
+    outline: none;
+}
+
 /*Прелодер*/
 .loaderArea {
     background-color: #ffffff;
@@ -134,6 +142,7 @@ section{
     font-size: 35px;
     padding-bottom: 10px;
     align-items: center;
+    border-width: 0;
 }
 
 .button::before{
