@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
-    <!--Подключаем базовые скрипты и стили для слайдера-->
-    <script src="js/jquery.js"></script>
+    <!-- Подключение стилей-->
     <link rel="stylesheet" href="plagins/slick/slick.css">
     <link rel="stylesheet" href="plagins/slick/slick-theme.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-
+    <!-- Шрифты-->
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-
+    <!--Стиль для иконок-->
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Стили для анимации-->
+    <link rel="stylesheet" href="css/animate.css">
 
     <link rel="stylesheet" href="css/basic.css">
     <link rel="stylesheet" href="css/header.css">
@@ -146,7 +145,7 @@
     </div>
 </section>
 
-<section class="information">
+<section class="information wow animate__bounceIn" data-wow-duration="2s">
     <div class="information-block">
         <h1>Что такое стабилизированный мох?</h1>
         <span>
@@ -204,7 +203,7 @@
     </div>
 </section>
 
-<section class="advantages">
+<section class="advantages wow animate__bounceIn" data-wow-duration="2s">
     <div class="advantages-block">
         <ul>
             <li><i class="fa fa-check" aria-hidden="true"></i>Не требуют ухода</li>
@@ -218,7 +217,7 @@
 <section class="products_catalog">
     <h1>В наличии</h1>
     <div class="products">
-        <div class="product-item">
+        <div class="product-item wow animate__fadeInUp" data-wow-duration="1s">
             <img src="img/paintmoss1.png" alt="Пустые холмы">
             <div class="product-name">
                 Пустые холмы
@@ -231,7 +230,7 @@
             </div>
             <button class="button" onclick="location.href = 'in-develop.html'">4500 руб.</button>
         </div>
-        <div class="product-item">
+        <div class="product-item wow animate__fadeInUp" data-wow-duration="1.5s">
             <img src="img/paintmoss2.png" alt="Рельеф">
             <div class="product-name">
                 Рельеф
@@ -244,7 +243,7 @@
             </div>
             <button class="button" onclick="location.href = 'in-develop.html'">3000 руб.</button>
         </div>
-        <div class="product-item">
+        <div class="product-item wow animate__fadeInUp" data-wow-duration="2s">
             <img src="img/paintmoss3.png" alt="Море">
             <div class="product-name">
                 Море
@@ -305,17 +304,14 @@
         <div class="footer-social">
             <div class="footer-social-item">
                 <a class="item-vk" href="https://vk.com/" target="_blank">
-                    <!-- <i class="fa fa-paper-plane" aria-hidden="true"></i> -->
                 </a>
             </div>
             <div class="footer-social-item">
                 <a  class="item-instagram" href="https://www.instagram.com/" target="_blank">
-                    <!-- <i class="fa fa-instagram" aria-hidden="true"></i> -->
                 </a>
             </div>
             <div class="footer-social-item">
                 <a  class="item-telegram" href="https://telegram.org/" target="_blank">
-                    <!-- <i class="fa fa-vk" aria-hidden="true"></i> -->
                 </a>
             </div>
         </div>
@@ -323,10 +319,15 @@
 </footer>
 
 
+<!--Подключаем базовые скрипты и стили для слайдера-->
+<script src="js/jquery.js"></script>
 <!-- Подключаем саму библиотеку слайдера-->
 <script src="plagins/slick/slick.min.js"></script>
 <!--Подключение прелодера-->
 <script src="js/script.js"></script>
+<!-- Подключение wow -->
+<script src="js/wow.min.js"></script>
+
 <!--Инициализируем сам слайдер-->
 <script>
 $(document).ready(function(){
@@ -335,14 +336,14 @@ $(document).ready(function(){
     prevArrow: '<button class="prev"></button>',
     nextArrow: '<button class="next"></button>',
     responsive: [
-    {
-      breakpoint: 1920,
-      settings: {
-        arrows: true,
-        slidesToShow: 1
-      }
-    }
-  ]
+        {
+        breakpoint: 1920,
+        settings: {
+            arrows: true,
+            slidesToShow: 1
+        }
+        }
+    ]
   });
 });
 </script>

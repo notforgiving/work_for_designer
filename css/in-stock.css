@@ -261,3 +261,13 @@
         display: none;
     }
 }
+
+
+@keyframes product-animation {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

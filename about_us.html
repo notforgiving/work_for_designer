@@ -3,8 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <!-- Шрифты-->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <!--Стиль для иконок-->
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Стили для анимации-->
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/basic.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/about_us.css">
@@ -124,7 +130,7 @@
     </section>
 
     <section class="information">
-        <div class="information-block">
+        <div class="information-block wow animate__bounceIn" data-wow-duration="2s">
             <h1>Наша миссия</h1>
             <span>
                 В условиях "каменных джунглей"<br>
@@ -185,7 +191,13 @@
         </div>
     </footer>
 
-<!-- /*Подключение прелодера*/ -->
+<!--Подключаем базовые скрипты и стили для слайдера-->
+<script src="js/jquery.js"></script>
+<!-- Подключаем саму библиотеку слайдера-->
+<script src="plagins/slick/slick.min.js"></script>
+<!--Подключение прелодера-->
 <script src="js/script.js"></script>
+<!-- Подключение wow -->
+<script src="js/wow.min.js"></script>
 </body>
 </html>
