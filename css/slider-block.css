@@ -240,15 +240,15 @@
 }
 
 .slider_block_description_button>button::before{
-    width: 100%;
-    height: 100%;
+    width: 99%;
+    height: 99%;
     top: -20px;
     left: -20px;
 }
 
 .slider_block_description_button>button::after{  
-    width: 100%;
-    height: 100%;
+    width: 98%;
+    height: 99%;
     top: 10px;
     left: 10px;
 }
@@ -264,14 +264,14 @@
     }
 
     .slider_block_description_button>button::before{
-        width: 99%;
-        height: 99%;
+        width: 97%;
+        height: 95%;
         top: -13px;
         left: -13px;
     }
 
     .slider_block_description_button>button::after {
-        width: 99%;
+        width: 98%;
         height: 99%;
         top: 4px;
         left: 5px;

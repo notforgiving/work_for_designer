@@ -1,11 +1,9 @@
-  jQuery(document).ready(function($) {
-    $(window).on('load', function () {
-      var $preloader = $('.loaderArea'),
-          $loader = $preloader.find('.loaderArea');
-      $loader.fadeOut();
-      $preloader.delay(250).fadeOut(200);
-    });
-  });
+$(window).on('load', function () {
+  $preloader = $('.loaderArea'),
+    $loader = $preloader.find('.loader');
+  $loader.fadeOut();
+  $preloader.delay(550).fadeOut('slow');
+});
 
   $('.menu-btn').on('click', function(e) {
     e.preventDefault;
