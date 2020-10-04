@@ -8,7 +8,7 @@
 /*Базовые настройки для всех страниц*/
 @font-face {
 	font-family: 'Nyasha Sans'; 
-	src: url(../fonts/NyashaSans.ttf), Arial; 
+    src: url(../fonts/NyashaSans.woff) format('woff'), url(../fonts/NyashaSans.woff2) format('woff2');
 }
 
 @media (max-width: 1366px)
@@ -176,8 +176,8 @@ section{
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     background-color: #d8c1b7;
     font-family: Nyasha Sans;
     font-size: 35px;
@@ -238,8 +238,8 @@ section{
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     margin-top: 110px;
 }
 
