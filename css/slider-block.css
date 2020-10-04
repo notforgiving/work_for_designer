@@ -200,7 +200,7 @@
 
 .slider_block_description_cause>ul li{
     list-style: none;
-    font-size: 40px;
+    font-size: 54px;
     margin-bottom: 20px;
     font-family: 'Fira Sans', sans-serif;
 }
@@ -236,7 +236,7 @@
     width: 530px;
     font-size: 35px;
     height: 105px;
-    margin: 130px 0 0 0;
+    margin: 0;
 }
 
 .slider_block_description_button>button::before{
