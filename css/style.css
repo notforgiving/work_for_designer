@@ -242,6 +242,11 @@ section{
     outline: none;
 }
 
+.button:active::before,
+.button:active::after{
+    border: 6px solid #016b21;
+}
+
 /*Стили шапки*/
 
 header{
