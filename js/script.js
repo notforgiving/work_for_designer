@@ -1,3 +1,4 @@
+/*Обработчик прелодера*/
 $(window).on('load', function () {
   $preloader = $('.loaderArea'),
   $loader = $preloader.find('.loader');
@@ -10,12 +11,14 @@ $(window).on('load', function () {
   $('.loader').delay(650).attr('style','display:block;')
 });
 
+/*Обработчик меню мобильного показать/скрыть*/
   $('.menu-btn').on('click', function(e) {
     e.preventDefault;
     $(this).toggleClass('menu-btn_active');
     $('.mobil_menu').toggleClass('mobil_menu_active');
   });
 
+  /*Обработчик плавной отправки при нажатии на контакты*/
   $(function(){
     $("a[href^='#']").click(function(){
             var _href = $(this).attr("href");
@@ -23,5 +26,6 @@ $(window).on('load', function () {
             return false;
     });
 
+    /*Инициализация срабатывания анимации при скроле*/
     new WOW().init();
 });
