@@ -167,7 +167,7 @@
     .slider_block_description_name {
         width: 100%;
         text-align: center;
-        font-size: 0.3rem;
+        font-size: 0.5rem;
         padding: 2px 5px;
         height: 18%;
     }
@@ -209,7 +209,7 @@
 {
     .slider_block_description_cause>ul li {
         list-style: none;
-        font-size: 14px;
+        font-size: 18px;
         margin-bottom: 10px;
     }
 }
@@ -255,6 +255,10 @@
 
 @media (max-width: 1366px)
 {
+    .slider_block_description_button{
+        padding-top: 52px;
+    }
+
     .slider_block_description_button>button {
         width: 205px;
         font-size: 14px;
@@ -280,6 +284,10 @@
 
 @media (max-width: 768px)
 {
+    .slider_block_description_button{
+        padding-top: 0;
+    }
+
     .slider_block_description_button>button {
         width: 122px;
         font-size: 10px;

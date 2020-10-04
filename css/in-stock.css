@@ -200,7 +200,7 @@
     display: flex;
     text-align: end;
     height: 275px;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: Nyasha Sans;
     width: 480px;
     font-size: 45px;
     box-sizing: border-box;
@@ -233,7 +233,7 @@
     .calfication{
         height: 110px;
         width: 190px;
-        font-size: 0.5rem;
+        font-size: 0.35rem;
     }  
 }
 

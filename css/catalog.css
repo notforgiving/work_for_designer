@@ -22,6 +22,7 @@
     .catalog>h1 {
         font-size: 0.7rem;
         margin-bottom: 40px;
+        margin-top: 27px;
     }
 }
 
@@ -74,7 +75,7 @@
 @media (max-width: 768px)
 {
     .catalog-item {
-        width: 85%;
+        width: 69%;
         height: 54px;
         margin-bottom: 18px;
         font-size: 0.3rem;

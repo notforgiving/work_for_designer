@@ -189,7 +189,6 @@ section{
     }
 }
 
-
 /*Секция с информацией посреди экрана*/
 
 .information{
@@ -210,7 +209,7 @@ section{
 .information-block>h1{
     text-align: center;
     margin-top: 70px;
-    font-size: 57px;
+    font-size: 45px;
 }
 
 .information-block span{
@@ -246,7 +245,7 @@ section{
 
     .information-block span {
         margin-top: 20px;
-        font-size: 55%;
+        font-size: 48%;
     }
 }
 
@@ -277,8 +276,6 @@ section{
         font-size: 33%;
     }
 }
-
-
 
 /*Кнопка каталога*/
 .catalog-button{
@@ -313,7 +310,7 @@ section{
     .catalog-button .button {
         padding: 10px 50px;
         font-size: 0.3rem;
-        margin: 20px 0;
+        margin: 40px 0;
     }
 
     .catalog-butto .button {
