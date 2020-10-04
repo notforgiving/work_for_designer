@@ -3,10 +3,11 @@ $(window).on('load', function () {
   $loader = $preloader.find('.loader');
   $loader.delay(550).fadeOut('slow');
   $preloader.delay(550).fadeOut('slow');
-  $('.loader').attr('style','display:block;')
-  $( ".loader" ).animate({
+  $( ".loader" ).delay(650).animate({
+    display: "block",
     opacity: "1"
   });
+  $('.loader').delay(650).attr('style','display:block;')
 });
 
   $('.menu-btn').on('click', function(e) {
