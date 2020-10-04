@@ -3043,6 +3043,15 @@ footer{
 
 @media (max-width: 375px)
 {
+    .slick-dotted.slick-slider{
+        box-shadow: 1px 1px 20px 2px #d7e0ca;
+    }
+
+    .mobil_menu_active{
+        padding: 20px 5px;
+        font-size: 15px;
+    }
+
     .catalog-item{
         width: 81%;
     }
