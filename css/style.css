@@ -1,7 +1,7 @@
 /*Базовые настройки для всех страниц*/
 @font-face {
 	font-family: 'Nyasha Sans'; 
-	src: url(../fonts/NyashaSans.ttf); 
+	src: url(../fonts/NyashaSans.ttf), Arial; 
 }
 
 @media (max-width: 1366px)
@@ -2473,7 +2473,7 @@ footer{
 .about-us-who-we-are>span{
     display: block;
     text-align: end;
-    font-size: 35px;
+    font-size: 40px;
     font-family: 'Fira Sans', sans-serif;
 }
 
@@ -2510,7 +2510,7 @@ footer{
     }
 
     .about-us-foto{
-        height: fit-content;
+        height: auto;
         display: flex;
         justify-content: center;
         align-items: baseline;
