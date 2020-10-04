@@ -3036,17 +3036,31 @@ footer{
     }
 }
 
-/* @media (max-width: 425px)
+ @media (max-width: 425px)
 {
 
 }
 
 @media (max-width: 375px)
 {
+    .catalog-item{
+        width: 81%;
+    }
 
+    .about-us{
+        padding: 10px 0 0 10px;
+    }
+
+    .about-us-foto>img{
+        width: 173px;
+    }
+
+    .about-us-who-we-are>span{
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 320px)
 {
 
-} */
+}
