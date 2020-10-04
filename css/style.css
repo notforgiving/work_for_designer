@@ -1550,7 +1550,7 @@ footer{
     }
 
     .nav_block{
-        font-size: 17px;
+        font-size: 15px;
     }
 
     .bag {
@@ -1926,6 +1926,7 @@ footer{
     .paintings-block>h1{
         width: 341px;
         height: auto;
+        font-size: 25px;
         padding: 20px 0;
     }
 
