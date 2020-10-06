@@ -24,27 +24,27 @@
     <img src="img/preloder.png" alt="Кружок загрузки">
 </div>
 <div class="loader">
-    <header>
-        <div class="burger">
-            <a class="menu-btn">
-                <span></span>
-            </a>
-        </div>
-        <div class="logo">
-            <button class="logo_btn" onclick="location.href = 'index.html'"></button>
-        </div>
-        <div class="nav_block">
-            <ul>
-                <li><a href="about_us.html">О нас</a></li>
-                <li><a href="piaintings.html">Каталог</a></li>
-                <li><a href="#contacts">Контакты</a></li>
-                <li><a href="in-develop.html">Доставка</a></li>
-                <li>
-                    <button class="bag" onclick="location.href = 'in-develop.html'"></button>
-                </li>
-            </ul>
-        </div>
-    </header>
+<header>
+    <div class="burger">
+        <a class="menu-btn">
+            <span></span>
+        </a>
+    </div>
+    <div class="logo">
+        <button class="logo_btn" onclick="location.href = 'index.html'"></button>
+    </div>
+    <div class="nav_block">
+        <ul>
+            <li><a href="about_us.html">О нас</a></li>
+            <li><a href="paintings.html">Каталог</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+            <li><a href="in-develop.html">Доставка</a></li>
+            <li>
+                <button class="bag" onclick="location.href = 'in-develop.html'"></button>
+            </li>
+        </ul>
+    </div>
+</header>
 
     <section class="mobil_menu">
         <ul>
@@ -150,51 +150,63 @@
         </div>
     </section>
 
-    <section class="catalog">
+    <section class="catalog" id="catalog_main">
         <h1>Каталог</h1>
         <div class="catalog-items">
-            <div class="catalog-item">
-                <div class="catalog-item-cicle">
-                    <div class="catalog-item-cicle small">
+            <a class="catalog__link" href="paintings.html">
+                <div class="catalog-item">
+                    <div class="catalog-item-cicle">
+                        <div class="catalog-item-cicle small">
+                        </div>
                     </div>
+                    <span>Картины из мха</span>
                 </div>
-                <span>Картины из мха</span>
-            </div>
-            <div class="catalog-item">
-                <div class="catalog-item-cicle">
-                    <div class="catalog-item-cicle small">
+            </a>
+            <a class="catalog__link" href="in-develop.html">
+                <div class="catalog-item">
+                    <div class="catalog-item-cicle">
+                        <div class="catalog-item-cicle small">
+                        </div>
                     </div>
+                    <span>Фитостены</span>
                 </div>
-                <span>Фитостены</span>
-            </div>
-            <div class="catalog-item">
-                <div class="catalog-item-cicle">
-                    <div class="catalog-item-cicle small">
+            </a>
+            <a class="catalog__link" href="in-develop.html">
+                <div class="catalog-item">
+                    <div class="catalog-item-cicle">
+                        <div class="catalog-item-cicle small">
+                        </div>
                     </div>
+                    <span>Логотипы</span>
                 </div>
-                <span>Логотипы</span>
-            </div>
-            <div class="catalog-item">
-                <div class="catalog-item-cicle">
-                    <div class="catalog-item-cicle small">
+            </a>
+            <a class="catalog__link" href="in-develop.html">
+                <div class="catalog-item">
+                    <div class="catalog-item-cicle">
+                        <div class="catalog-item-cicle small">
+                        </div>
                     </div>
+                    <span>Гербариумы</span>
                 </div>
-                <span>Гербариумы</span>
-            </div>
-            <div class="catalog-item">
-                <div class="catalog-item-cicle">
-                    <div class="catalog-item-cicle small">
+            </a>
+            <a class="catalog__link" href="in-develop.html">
+                <div class="catalog-item">
+                    <div class="catalog-item-cicle">
+                        <div class="catalog-item-cicle small">
+                        </div>
                     </div>
+                    <span>Панно</span>
                 </div>
-                <span>Панно</span>
-            </div>
-            <div class="catalog-item">
-                <div class="catalog-item-cicle">
-                    <div class="catalog-item-cicle small">
+            </a>
+            <a class="catalog__link" href="in-develop.html">
+                <div class="catalog-item">
+                    <div class="catalog-item-cicle">
+                        <div class="catalog-item-cicle small">
+                        </div>
                     </div>
+                    <span>Разное</span>
                 </div>
-                <span>Разное</span>
-            </div>
+            </a>
         </div>
     </section>
 
@@ -263,7 +275,7 @@
     </section>
 
     <section class="catalog-button">
-        <button class="catalog-btn button" onclick="location.href = 'piaintings.html'">Каталог</button>
+        <button class="catalog-btn button" onclick="location.href = '#catalog_main'">Каталог</button>
     </section>
 
     <footer id='contacts'>

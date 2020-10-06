@@ -16,6 +16,8 @@ ul{
     padding: 0;
 }
 
+
+
 html{
     background-color: #fff;
     font-size: 42px;
@@ -92,7 +94,16 @@ button{
 }
 
 a{
-    color: #000;
+    color: #384340;
+    text-decoration: none;
+}
+
+a,
+a::active,
+a::focus,
+a::hover,
+a::visited{
+    text-decoration: none;
 }
 
 li{
@@ -196,6 +207,10 @@ section{
             align-items: center;
     z-index: 0;
     position: relative;
+}
+
+.catalog__link{
+    display: contents;
 }
 
 .catalog-btn{
