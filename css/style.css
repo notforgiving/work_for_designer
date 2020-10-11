@@ -313,10 +313,12 @@ header{
     -webkit-transition: 0.1s;
     -o-transition: 0.1s;
     transition: 0.1s;
+    background-size: 88%;
 }
 
 .logo_btn:hover{
     background: url(../img/logo.gif) no-repeat;
+    background-size: 88%;
 }
 
 .nav_block{
@@ -1588,6 +1590,7 @@ footer{
 
     header {
         height: 100px;
+        display: flex;
     }
 
     .logo {
@@ -1601,12 +1604,12 @@ footer{
                 transform: translateY(-5px);
         background: url(../img/logo.png) center center no-repeat;
         height: 100%;
-        background-size: 65%;
+        background-size: 50%;
     }
     
     .logo_btn:hover {
         background: url(../img/logo.gif) center center no-repeat;
-        background-size: 65%;
+        background-size: 50%;
     }
 
     .nav_block{
