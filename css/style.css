@@ -2344,7 +2344,6 @@ footer{
         top: 50%; 
         left: 50%;
         margin-left: -15px;
-        margin-top: -1px;
         width: 30px;
         height: 3px;
         background-color: #fceff0;
@@ -2358,14 +2357,10 @@ footer{
             transition: 0.2s;
     }
     .menu-btn span::before {
-        -webkit-transform: translateY(-8px);
-            -ms-transform: translateY(-8px);
-                transform: translateY(-8px);
+        top: -8px; 
     }
     .menu-btn span::after {
-        -webkit-transform: translateY(7px);
-            -ms-transform: translateY(7px);
-                transform: translateY(7px);
+        top: 8px; 
     }
     
     .menu-btn_active span{
@@ -2376,14 +2371,14 @@ footer{
     }
     
     .menu-btn_active span:before {
-        -webkit-transform: rotate(-45deg);
-            -ms-transform: rotate(-45deg);
-                transform: rotate(-45deg);
+        -webkit-transform: translateY(8px) rotate(-45deg);
+            -ms-transform: translateY(8px)rotate(-45deg);
+                transform: translateY(8px) rotate(-45deg);
     }
     .menu-btn_active span:after {
-        -webkit-transform: rotate(45deg);
-            -ms-transform: rotate(45deg);
-                transform: rotate(45deg);
+        -webkit-transform: translateY(-8px) rotate(45deg);
+            -ms-transform: translateY(-8px) rotate(45deg);
+                transform: translateY(-8px) rotate(45deg);
     }
 
     .mobil_menu {
