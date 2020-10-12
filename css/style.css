@@ -1406,110 +1406,6 @@ footer{
     left: -65px;
 }
 
-/*Медиа запросы*/
-
-/* @media (max-width: 1440px)
-{
-    body{
-        max-width: 1240px;
-    }
-
-    .logo_btn{
-        background-size: 100%;
-    }
-
-    .nav_block{
-        font-size: 25px;
-        width: 100%;
-    }
-
-    .bag{
-        width: 2rem;
-        height: 2rem;
-        background-size: 100%;
-    }
-
-    .slider_wrapper{
-        height: 650px;
-    }
-
-    .slider_block{
-        height: 696px;
-    }
-
-    .slick-slide img{
-        width: 500px;
-    }
-
-    .slider_block_description_name{
-        width: 500px;
-        font-size: 41px;
-        height: 142px;
-    }
-
-    .slider_block_description_cause>ul li{
-        font-size: 43px;
-    }
-
-    .slider_block_description_button>button{
-        width: 400px;
-        font-size: 30px;
-        height: 87px;
-    }
-
-    .next{
-        width: 1.5rem;
-        height: 1.5rem;
-        background-size: 60%;
-    }
-
-    .prev{
-        width: 1.5rem;
-        height: 1.5rem;
-        background-size: 60%;
-    }
-
-    .information-block{
-        width: 80%;
-        height: auto;
-    }
-
-    .information-block>h1{
-        font-size: 42px;
-    }
-
-    .information-block span{
-        font-size: 39px;
-    }
-
-    .catalog{
-        margin: 100px auto 0 auto;
-    }
-
-    .catalog>h1{
-        margin-bottom: 80px;
-        font-size: 65px;
-    }
-
-    .catalog-item{
-        margin-bottom: 30px;
-    }
-
-    .catalog-item:nth-child(n+5){
-        margin-bottom: 30px;
-    }
-
-    .advantages-block{
-        margin-top: 100px;
-        margin-bottom: 100px;
-    }
-
-    .products_catalog>h1{
-        font-size: 65px;
-        margin-bottom: 55px;
-    }
-} */
-
 @media (max-width: 1440px)
 {
     body{
@@ -2786,6 +2682,13 @@ footer{
         width: 20px;
         height: 20px;
     }  
+
+    .footer-contacts-phone a:before{
+        width: 30px;
+        height: 30px;
+        left: -39px;
+    }
+    
 
     .paintings{
         height: 333px;
