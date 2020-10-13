@@ -1834,6 +1834,12 @@ footer{
         margin-bottom: 16px;
     }
 
+    .footer-contacts-phone a:before{
+        width: 35px;
+        height: 35px;
+        left: -46px;
+    }
+
     .footer-contacts-phone {
         font-size: 0.5rem;
     }
